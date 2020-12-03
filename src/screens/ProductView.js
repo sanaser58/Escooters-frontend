@@ -32,6 +32,9 @@ const ProductView = ({ match }) => {
               <h3>{product.name}</h3>
             </ListGroup.Item>
             <ListGroup.Item>Price: ${product.price}</ListGroup.Item>
+            <ListGroup.Item>Brand: {product.brand}</ListGroup.Item>
+            <ListGroup.Item>Color: {product.color}</ListGroup.Item>
+            <ListGroup.Item>MaxSpeed: {product.maxSpeed}</ListGroup.Item>
             <ListGroup.Item>Description: {product.description}</ListGroup.Item>
           </ListGroup>
         </Col>
