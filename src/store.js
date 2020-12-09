@@ -1,7 +1,7 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux' /// bringing necessary stuff from redux
 import thunk from 'redux-thunk' /// middleware
 import { composeWithDevTools } from 'redux-devtools-extension' /// to use redux devtools
-import { productListReducer, productDetailsReducer} from './reducers/productReducers'
+import { productListReducer, productDetailsReducer, productDeleteReducer, productCreateReducer, productUpdateReducer, } from './reducers/productReducers'
 import { cartReducer } from './reducers/cartReducers'
 import { userLoginReducer, userRegisterReducer, userListReducer, } from './reducers/userReducers'
 import { orderCreateReducer, orderDetailsReducer, } from './reducers/orderReducers'
@@ -9,6 +9,9 @@ import { orderCreateReducer, orderDetailsReducer, } from './reducers/orderReduce
 const reducer = combineReducers({
     productList: productListReducer,
     productDetails: productDetailsReducer,
+    productDelete: productDeleteReducer,
+    productCreate: productCreateReducer,
+    productUpdate: productUpdateReducer, 
     cart: cartReducer,
     userLogin: userLoginReducer,
     userRegister: userRegisterReducer,
