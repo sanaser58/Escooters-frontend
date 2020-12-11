@@ -20,6 +20,26 @@ EScooter is a full stack CRUD application built with Mern Stack and React-redux 
 ![four](images/four.png)
 
 
+## PlaceOrder confirm 
+![five](images/five.png)
+
+
+## Sign Up 
+![six](images/six.png)
+
+
+## Admin Users Page 
+![seven](images/seven.png)
+
+
+## Admin Products Page 
+![eight](images/eight.png)
+
+
+## Payment Method  
+![nine](images/nine.png)
+
+
 
 ## Technologies
 
