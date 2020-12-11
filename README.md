@@ -77,3 +77,13 @@ Coming Soon....
 #### Link to Wireframe
 
  * https://www.gomockingbird.com/projects/0gdxbdp/4gXVnC
+
+
+
+ #### Documentation/Resources
+ * https://reactjs.org/
+ * https://redux.js.org/
+ * https://react-bootstrap.github.io/
+ * https://bootswatch.com/
+ * https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
+ * https://jwt.io/
